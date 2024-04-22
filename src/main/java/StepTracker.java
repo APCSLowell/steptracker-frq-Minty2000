@@ -1,19 +1,19 @@
 import java.util.ArrayList;
 public class StepTracker
 {
- private int days,  steps,  tdays, ts;
+ private int days,  minsteps,  totalDay, ts;
  
  StepTracker(int s){
-    steps =s;
+    minsteps =s;
    days= 0;
-  tdays=0;
+  totalDay=0;
   ts= 0;
  }
 
  public void  addDailySteps(int x){
   steps += x;
   ts++;
-  if (x >= steps ){
+  if (x >= minsteps ){
 days ++;
   }
  }
@@ -25,7 +25,7 @@ days ++;
 if (ts == 0){
 return 0.0;
 }else 
- return (double)ts/tdays;
+ return (double)ts/totalDay;
  }
  /* to be implemented here */
 } 
