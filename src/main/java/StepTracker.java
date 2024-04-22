@@ -11,8 +11,8 @@ public class StepTracker
  }
 
  public void  addDailySteps(int x){
-  minsteps += x;
-  ts++;
+  ts += x;
+  totalDay++;
   if (x >= minsteps ){
 adays ++;
   }
