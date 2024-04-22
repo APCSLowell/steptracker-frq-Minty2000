@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 public class StepTracker
 {
- private int days, int steps, int tdays, int ts;
+ private int days,  steps,  tdays, ts;
  
  StepTracker(int s){
     steps =s;
