@@ -25,7 +25,7 @@ days ++;
 if (ts == 0){
 return 0.0;
 }else 
- return (double)ts/days;
+ return (double)ts/tdays;
  }
  /* to be implemented here */
 } 
